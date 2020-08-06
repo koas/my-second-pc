@@ -29,3 +29,13 @@ This demo features the first styles we used for the library. Over the years, the
 Two months ago, and because of the COVID-19 global crisis, sadly one of our customers went out of business. They were the last ones who still had a working application that used this library. Since it's not used anywhere anymore my company authorized me to make the code public.
 
 I hope it can be useful to someone for something, though I doubt it. But I'll settle for showing what could be done with the web technology of the mid to late 2000s.
+
+## Screenshots
+Text editor, file explorer and image viewer.
+![Text editor, file explorer and image viewer](https://koas.dev/m2pc/estaticos/img/Screenshot3.png "Text editor, file explorer and image viewer")
+
+Sudoku and Tetris games
+![Sudoku and Tetris games](https://koas.dev/m2pc/estaticos/img/Screenshot2.png "Sudoku and Tetris games")
+
+Desktop and timezone configuration
+![Desktop and timezone configuration](https://koas.dev/m2pc/estaticos/img/Screenshot1.png "Desktop and timezone configuration")
