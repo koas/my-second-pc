@@ -14,7 +14,7 @@ That's when I came up with the idea of creating a desktop environment on the bro
 ## The KWS library
 KWS stands for Karontek's (my company) Window System, and it's a bunch of vanilla JS files for the environment components: desktop, window, taskbar, data tables, desktop icons, traybar, etc. It would take too long to explain in detail how it works and sadly the code has no comments, but I'll try to give some general info about it.
 
-Apps are XML files (yes, XML was THE language back then) with a `code` tag where the JS code for the app lives. After the `code` tag you can have one or more `window` tags, and inside each `window` the UI for that app is created using the library components (like `tabcontrol` or `tab`) or HTML code (inside the `html_code` tag).
+Apps are XML files (yes, XML was THE language back then) with a `code` tag where the JS code for the app lives. After the `code` tag you can have one or more `window` tags, and inside each `window` the UI for that app is created using the library components (like `tabcontrol` or `tab`) or plain HTML code (inside the `html_code` tag).
 
 The library after loading an app calls the `main` function (which is inside the `code` tag) and that kickstarts the app. Usually it shows one of the windows, loads some data from the server using AJAX and shows it.
 
@@ -26,7 +26,7 @@ All customers for whom we developed applications using the KWS library were very
 
 This demo features the first styles we used for the library. Over the years, the look was changed to accommodate trends in operating system and icon design. A major rewrite was done a few years later using jQuery and two years ago I rewrote it again using Vue.js, which is the current version we use at Karontek.
 
-Two months ago, and because of the COVID-19 global crisis, sadly one of our customers went out of business. They were the last ones who still had a working application that used this library. Since it's not used anywhere anymore my company authorized me to make the code public.
+Two months ago, and because of the COVID-19 global crisis, sadly one of our customers went out of business. They were the last ones who still had a working application that used this initial plain JS version of the library. Since it's not used anywhere anymore my company allowed me to make the code public.
 
 I hope it can be useful to someone for something, though I doubt it. But I'll settle for showing what could be done with the web technology of the mid to late 2000s.
 
